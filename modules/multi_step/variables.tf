@@ -83,7 +83,6 @@ variable "script_relative_path" {
   description = "Relative path to file from current working directory. Incl. filename"
   default     = ""
 }
-<<<<<<< HEAD
 
 variable "create_local_script" {
   description = "Create local test script"
@@ -91,10 +90,8 @@ variable "create_local_script" {
   default = "true"
 }
 
-=======
 variable "config_variables" {
   type        = map(any)
   default     = {}
   description = "Map with a set of configuration variables that your synthetics test needs to use."
 }
->>>>>>> 34d72427ad1d95a007174bb6bcb58c8873fae012
